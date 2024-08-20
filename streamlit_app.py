@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.linear_model import LinearRegression
-from sklaern.metrics import mean_squared_error, r2_score
+from sklearn.metrics import mean_squared_error, r2_score
 import matplotlib.pyplot as plt
 
 st.title('🔖 Advertising Sales Predictor')
