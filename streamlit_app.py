@@ -13,4 +13,7 @@ st.title('🔖 Advertising Sales Predictor')
 
 st.info('An app powered by a Machine Learning model, to forecast sales based on TV, Newspaper, and Online Advertising')
 
-#st.write('Hello world!')
+with st.expander('Data'):
+  st.write('**Raw Data**')
+  df = pd.read_csv('https://raw.githubusercontent.com/sarowarahmed/Advertising-Sales-App/master/New%20Adevertising%20Dataset.csv')
+  df
